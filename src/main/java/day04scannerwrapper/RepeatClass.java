@@ -1,2 +1,4 @@
-package day04scannerwrapper;public class RepeatClass {
+package day04scannerwrapper;
+
+public class RepeatClass {
 }

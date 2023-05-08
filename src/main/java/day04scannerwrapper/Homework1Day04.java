@@ -2,10 +2,8 @@ package day04scannerwrapper;
 
 import java.util.Scanner;
 
-public class HomeworkDay04 {
-    //Homework2: kullanicidan aldiginiz 3 basamakli bir sayinin rakamlari toplamini bulunuz
-
-    public static void main(String[] args) {
+public class Homework1Day04 {
+        public static void main(String[] args) {
 
         //Homework1: Kullanicidan aldigimiz 3 tane sayinin ortalamasini bulan kodu yaziniz
 
@@ -18,6 +16,10 @@ public class HomeworkDay04 {
         double thirdNumber= input.nextDouble();
 
         System.out.println((firstNumber+secondNumber+thirdNumber)/3);
+
+
+
+
 
 
 
