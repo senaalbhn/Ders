@@ -45,6 +45,9 @@ public class Scanner05 {
 
         System.out.println(birlerBasamagi+onlarBasamagi+binlerBasamagi+onbinlerBasamagi);
 
+        //Homework1: Kullanicidan aldigimiz 3 tane sayinin ortalamasini bulan kodu yaziniz
+        //Homework2: kullanicidan aldiginiz 3 basamakli bir sayinin rakamlari toplamini bulunuz
+
 
 
 
