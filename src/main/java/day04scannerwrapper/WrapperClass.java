@@ -22,5 +22,38 @@ public class WrapperClass {
 
         short minShort= Short.MIN_VALUE;
         System.out.println("minShort = " + minShort);
-    }
+
+        //Ornek 2: int data type nin minumum ve maximum degerini toplayin
+
+        int intMin= Integer.MIN_VALUE;
+        byte byteMAx= Byte.MAX_VALUE;
+
+        System.out.println(intMin+byteMAx);
+
+        //Ornek Primitive int i wrapper Integer e cevirin (Autoboxing)
+
+        int num=12;
+        Integer wrapperNum= num;
+
+        // Ornek: wrapper Byte i primitive byte cevirin: (Unboxing)
+
+        Byte k=12;
+        byte primitiveK= k;
+
+        //Ornek 5: primitive char i wrapper Charaktere cevirin
+
+        char a= 'A';
+        Character wrapperCharacter= a;
+
+        //Ornek 6: wrapper Boolean primitive boolean
+
+        Boolean isGoodWrapper= true;
+
+        boolean primitiveIsgood= isGoodWrapper;
+
+
+
+
+
+            }
 }
