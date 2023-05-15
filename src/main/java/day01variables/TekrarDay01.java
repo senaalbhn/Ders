@@ -1,6 +1,6 @@
 package day01variables;
 
-public class TekrarDay01 {
+public           class TekrarDay01 {
     public static void main(String[] args) {
 
         /* Variable olusturma==>

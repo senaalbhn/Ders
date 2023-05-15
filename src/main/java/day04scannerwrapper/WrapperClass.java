@@ -30,7 +30,7 @@ public class WrapperClass {
 
         System.out.println(intMin+byteMAx);
 
-        //Ornek Primitive int i wrapper Integer e cevirin (Autoboxing)
+        //Ornek 3: Primitive int i wrapper Integer e cevirin (Autoboxing)
 
         int num=12;
         Integer wrapperNum= num;
@@ -40,12 +40,13 @@ public class WrapperClass {
         Byte k=12;
         byte primitiveK= k;
 
-        //Ornek 5: primitive char i wrapper Charaktere cevirin
+
+        //Ornek 5: primitive char i wrapper Charactere cevirin
 
         char a= 'A';
         Character wrapperCharacter= a;
 
-        //Ornek 6: wrapper Boolean primitive boolean
+        //Ornek 6: wrapper Boolean i primitive boolean a ceviriniz
 
         Boolean isGoodWrapper= true;
 
