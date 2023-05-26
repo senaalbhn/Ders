@@ -12,10 +12,21 @@ public class DenemeCalismasi {
         int bolmesonuc= bolme(25,5);
         System.out.println(bolmesonuc);
 
+       int snc=carpma(2,3,4);
+        System.out.println("snc = " + snc);
 
+        int sss=nbr(5, 6);
+        System.out.println("sss = " + sss);
 
 
     }
+
+    private static int nbr(int i, int i1) {
+        return i+i1;
+    }
+
+    public static int carpma (int d, int f,int g){
+        return ((d*f*g)*(d+f+g));}
 
     public static int islemler ( int a, int b, int c, int d){
         return a*b/c+d;
