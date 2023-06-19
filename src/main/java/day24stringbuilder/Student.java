@@ -1,7 +1,6 @@
 package day24stringbuilder;
 
 public class Student {
-
         /*
         Access Modifier
         1) public
