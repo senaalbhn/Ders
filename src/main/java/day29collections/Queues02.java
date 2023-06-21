@@ -1,5 +1,7 @@
 package day29collections;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -24,6 +26,18 @@ public class Queues02 {
          "Queue" olustururken constructor olarak PriorityQueue kullanirsaniz elemanlari kendi belirleyeceginiz kurala gore siralama
          hakkiniz olur
          */
+
+        //Deque ==> Double ended Queue (Iki uclu Queue)
+        //Deque daki add(), get(), peek() vb. methodlar first ve last seklinde iki uclu olarak bulunur
+        Deque<String> d= new LinkedList<>();
+        d.add("Egg");
+        d.add("Milk");
+        d.add("Cheese");
+        d.add("Meat");
+        System.out.println(d);
+
+
+
 
     }
 }
