@@ -9,8 +9,8 @@ public class Varargs01 {
 
 
     }
-    //Note 1: Bir method parabtezinde birden fazla Varargs kullanilamaz
-    //Note 2: Eger bir method parantezinde birden fazla paarametre kullanilacaksa Varargs sonda olmalisir
+    //Note 1: Bir method parantezinde birden fazla Varargs kullanilamaz
+    //Note 2: Eger bir method parantezinde birden fazla parametre kullanilacaksa Varargs sonda olmalisir
 
     public static int add(int b, int c, int... a){
         int sum=0;

@@ -39,7 +39,7 @@ public class ArrayList02 {
         boolean r1=nums1.equals(nums2);
         System.out.println(r1);
 
-        //ArrayList'te bir elemanin ilk gorunumu nasil gilinir?
+        //ArrayList'te bir elemanin ilk gorunumu nasil silinir?
         ArrayList<String>cities=new ArrayList<>();
         cities.add("Miami");
         cities.add("Istanbul");
