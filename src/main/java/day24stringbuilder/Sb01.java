@@ -17,7 +17,7 @@ public class Sb01 {
         String t = s+"!";
         String w = t+"?";
         //Stringi degistirdikten sonra ayni Stringe assign ederseniz, java yine yeni bir container olusturur
-        //Degismid degeri bu yeni container in icinde koyar ve eski container i gosteren pointer yeni container a yonlendirilir
+        //Degismis degeri bu yeni container in icinde koyar ve eski container i gosteren pointer yeni container a yonlendirilir
         //Dolayisiyla eski container adressiz kalir, ve garbage collector adressiz olan contanirlari siler
         String a = "Money";
         a=a+"More";
@@ -38,7 +38,7 @@ public class Sb01 {
         System.out.println(sb2.capacity());
         //capacity() ve length() arasinda ki fark nedir?
         //capacity() javanin size verdigi data depolama yer sayisidir
-        // length ise size verilen zdata depolama yerinin kullanilan kismidir
+        // length ise size verilen data depolama yerinin kullanilan kismidir
         //Java baslangic olarak size capacity' i 16 olarak verir, eger siz verilen capacity asarsaniz
         // java yeni capactiy'i varolanin 2 katinin 2 fazlasi olacak sekilde degistirir
         //16 ==> 16*2 +2            -     34 ==> 34*2+2
